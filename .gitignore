@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# 训练输出
+checkpoint.pth.tar
+model_best.pth.tar
+*.pth
+!model_zoo/*.pth
+model/*.pth
+outputs/
+
+# 数据集
+data/
+
+# IDE
+.idea/
+.vscode/
+
+# 临时文件
+*.tmp.*
+.DS_Store
+
+# MLflow
+mlruns/

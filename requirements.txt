@@ -1,0 +1,12 @@
+torch>=1.12.0
+torchvision>=0.13.0
+numpy
+matplotlib
+scipy
+scikit-learn
+seaborn
+tqdm
+opencv-python
+mlflow
+tensorboard
+pytorch-grad-cam
